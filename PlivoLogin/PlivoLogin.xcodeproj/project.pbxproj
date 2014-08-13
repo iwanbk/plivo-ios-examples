@@ -19,18 +19,15 @@
 		008311A31802768D005DE4BE /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008311A11802768D005DE4BE /* MainStoryboard_iPad.storyboard */; };
 		008311A61802768D005DE4BE /* PlivoLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 008311A51802768D005DE4BE /* PlivoLoginViewController.m */; };
 		008311AD18028ACA005DE4BE /* libPlivoEndpoint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 008311AC18028ACA005DE4BE /* libPlivoEndpoint.a */; };
-		008311B118028AE9005DE4BE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008311B018028AE9005DE4BE /* AudioToolbox.framework */; };
-		008311B318028AF1005DE4BE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008311B218028AF1005DE4BE /* CFNetwork.framework */; };
-		008311B518028AF8005DE4BE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008311B418028AF8005DE4BE /* AVFoundation.framework */; };
 		008311BA18028B31005DE4BE /* Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 008311B918028B31005DE4BE /* Phone.m */; };
-		008311BC18028FD7005DE4BE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008311BB18028FD7005DE4BE /* SystemConfiguration.framework */; };
+		00BCD14D199BAE6A00FCE717 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BCD14C199BAE6A00FCE717 /* AudioToolbox.framework */; };
+		00BCD14F199BAE7100FCE717 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BCD14E199BAE7100FCE717 /* SystemConfiguration.framework */; };
+		00BCD151199BAE7A00FCE717 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BCD150199BAE7A00FCE717 /* CFNetwork.framework */; };
+		00BCD153199BAE8200FCE717 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BCD152199BAE8200FCE717 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		002221F318039F8200BAA5D0 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = SOURCE_ROOT; };
-		006D907E18029DA500D56CA8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		006D908018029DAB00D56CA8 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		006D908218029DB600D56CA8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		008311831802768D005DE4BE /* PlivoLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlivoLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		008311861802768D005DE4BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		008311881802768D005DE4BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -49,14 +46,12 @@
 		008311A41802768D005DE4BE /* PlivoLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlivoLoginViewController.h; sourceTree = "<group>"; };
 		008311A51802768D005DE4BE /* PlivoLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlivoLoginViewController.m; sourceTree = "<group>"; };
 		008311AC18028ACA005DE4BE /* libPlivoEndpoint.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPlivoEndpoint.a; sourceTree = "<group>"; };
-		008311AE18028AE0005DE4BE /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
-		008311B018028AE9005DE4BE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		008311B218028AF1005DE4BE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		008311B418028AF8005DE4BE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		008311B618028B0C005DE4BE /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		008311B818028B31005DE4BE /* Phone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Phone.h; sourceTree = "<group>"; };
 		008311B918028B31005DE4BE /* Phone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Phone.m; sourceTree = "<group>"; };
-		008311BB18028FD7005DE4BE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		00BCD14C199BAE6A00FCE717 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		00BCD14E199BAE7100FCE717 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		00BCD150199BAE7A00FCE717 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		00BCD152199BAE8200FCE717 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +59,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				008311BC18028FD7005DE4BE /* SystemConfiguration.framework in Frameworks */,
-				008311B518028AF8005DE4BE /* AVFoundation.framework in Frameworks */,
-				008311B318028AF1005DE4BE /* CFNetwork.framework in Frameworks */,
-				008311B118028AE9005DE4BE /* AudioToolbox.framework in Frameworks */,
+				00BCD153199BAE8200FCE717 /* AVFoundation.framework in Frameworks */,
+				00BCD151199BAE7A00FCE717 /* CFNetwork.framework in Frameworks */,
+				00BCD14F199BAE7100FCE717 /* SystemConfiguration.framework in Frameworks */,
+				00BCD14D199BAE6A00FCE717 /* AudioToolbox.framework in Frameworks */,
 				008311AD18028ACA005DE4BE /* libPlivoEndpoint.a in Frameworks */,
 				008311871802768D005DE4BE /* UIKit.framework in Frameworks */,
 			);
@@ -79,15 +74,6 @@
 		0083117A1802768D005DE4BE = {
 			isa = PBXGroup;
 			children = (
-				006D908218029DB600D56CA8 /* Security.framework */,
-				006D908018029DAB00D56CA8 /* OpenGLES.framework */,
-				006D907E18029DA500D56CA8 /* QuartzCore.framework */,
-				008311BB18028FD7005DE4BE /* SystemConfiguration.framework */,
-				008311B618028B0C005DE4BE /* CoreMedia.framework */,
-				008311B418028AF8005DE4BE /* AVFoundation.framework */,
-				008311B218028AF1005DE4BE /* CFNetwork.framework */,
-				008311B018028AE9005DE4BE /* AudioToolbox.framework */,
-				008311AE18028AE0005DE4BE /* CoreAudio.framework */,
 				008311AC18028ACA005DE4BE /* libPlivoEndpoint.a */,
 				0083118C1802768D005DE4BE /* PlivoLogin */,
 				008311851802768D005DE4BE /* Frameworks */,
@@ -106,6 +92,10 @@
 		008311851802768D005DE4BE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00BCD152199BAE8200FCE717 /* AVFoundation.framework */,
+				00BCD150199BAE7A00FCE717 /* CFNetwork.framework */,
+				00BCD14E199BAE7100FCE717 /* SystemConfiguration.framework */,
+				00BCD14C199BAE6A00FCE717 /* AudioToolbox.framework */,
 				008311861802768D005DE4BE /* UIKit.framework */,
 				008311881802768D005DE4BE /* Foundation.framework */,
 				0083118A1802768D005DE4BE /* CoreGraphics.framework */,
