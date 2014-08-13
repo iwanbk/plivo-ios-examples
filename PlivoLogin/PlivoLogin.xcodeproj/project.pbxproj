@@ -8,12 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		002221F418039F8200BAA5D0 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 002221F318039F8200BAA5D0 /* logo.png */; };
-		006D907F18029DA500D56CA8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006D907E18029DA500D56CA8 /* QuartzCore.framework */; };
-		006D908118029DAB00D56CA8 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006D908018029DAB00D56CA8 /* OpenGLES.framework */; };
-		006D908318029DB600D56CA8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006D908218029DB600D56CA8 /* Security.framework */; };
 		008311871802768D005DE4BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008311861802768D005DE4BE /* UIKit.framework */; };
-		008311891802768D005DE4BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008311881802768D005DE4BE /* Foundation.framework */; };
-		0083118B1802768D005DE4BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0083118A1802768D005DE4BE /* CoreGraphics.framework */; };
 		008311911802768D005DE4BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0083118F1802768D005DE4BE /* InfoPlist.strings */; };
 		008311931802768D005DE4BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 008311921802768D005DE4BE /* main.m */; };
 		008311971802768D005DE4BE /* PlivoLoginAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 008311961802768D005DE4BE /* PlivoLoginAppDelegate.m */; };
@@ -24,11 +19,9 @@
 		008311A31802768D005DE4BE /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008311A11802768D005DE4BE /* MainStoryboard_iPad.storyboard */; };
 		008311A61802768D005DE4BE /* PlivoLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 008311A51802768D005DE4BE /* PlivoLoginViewController.m */; };
 		008311AD18028ACA005DE4BE /* libPlivoEndpoint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 008311AC18028ACA005DE4BE /* libPlivoEndpoint.a */; };
-		008311AF18028AE0005DE4BE /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008311AE18028AE0005DE4BE /* CoreAudio.framework */; };
 		008311B118028AE9005DE4BE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008311B018028AE9005DE4BE /* AudioToolbox.framework */; };
 		008311B318028AF1005DE4BE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008311B218028AF1005DE4BE /* CFNetwork.framework */; };
 		008311B518028AF8005DE4BE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008311B418028AF8005DE4BE /* AVFoundation.framework */; };
-		008311B718028B0C005DE4BE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008311B618028B0C005DE4BE /* CoreMedia.framework */; };
 		008311BA18028B31005DE4BE /* Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 008311B918028B31005DE4BE /* Phone.m */; };
 		008311BC18028FD7005DE4BE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008311BB18028FD7005DE4BE /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
@@ -71,19 +64,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				006D908318029DB600D56CA8 /* Security.framework in Frameworks */,
-				006D908118029DAB00D56CA8 /* OpenGLES.framework in Frameworks */,
-				006D907F18029DA500D56CA8 /* QuartzCore.framework in Frameworks */,
 				008311BC18028FD7005DE4BE /* SystemConfiguration.framework in Frameworks */,
-				008311B718028B0C005DE4BE /* CoreMedia.framework in Frameworks */,
 				008311B518028AF8005DE4BE /* AVFoundation.framework in Frameworks */,
 				008311B318028AF1005DE4BE /* CFNetwork.framework in Frameworks */,
 				008311B118028AE9005DE4BE /* AudioToolbox.framework in Frameworks */,
-				008311AF18028AE0005DE4BE /* CoreAudio.framework in Frameworks */,
 				008311AD18028ACA005DE4BE /* libPlivoEndpoint.a in Frameworks */,
 				008311871802768D005DE4BE /* UIKit.framework in Frameworks */,
-				008311891802768D005DE4BE /* Foundation.framework in Frameworks */,
-				0083118B1802768D005DE4BE /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

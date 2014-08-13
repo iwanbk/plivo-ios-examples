@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0048B1F017FBFF3E002B786C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0048B1EF17FBFF3E002B786C /* UIKit.framework */; };
-		0048B1F217FBFF3E002B786C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0048B1F117FBFF3E002B786C /* Foundation.framework */; };
-		0048B1F417FBFF3E002B786C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0048B1F317FBFF3E002B786C /* CoreGraphics.framework */; };
 		0048B1FA17FBFF3E002B786C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0048B1F817FBFF3E002B786C /* InfoPlist.strings */; };
 		0048B1FC17FBFF3E002B786C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0048B1FB17FBFF3E002B786C /* main.m */; };
 		0048B20017FBFF3E002B786C /* PlivoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0048B1FF17FBFF3E002B786C /* PlivoAppDelegate.m */; };
@@ -24,11 +22,7 @@
 		0048B22317FC1307002B786C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0048B22217FC1307002B786C /* AudioToolbox.framework */; };
 		0048B22517FC131E002B786C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0048B22417FC131E002B786C /* CFNetwork.framework */; };
 		0048B22717FC1324002B786C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0048B22617FC1324002B786C /* AVFoundation.framework */; };
-		0048B22917FC1335002B786C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0048B22817FC1335002B786C /* QuartzCore.framework */; };
-		0048B22B17FC133B002B786C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0048B22A17FC133B002B786C /* OpenGLES.framework */; };
-		0048B22D17FC1350002B786C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0048B22C17FC1350002B786C /* CoreMedia.framework */; };
 		0048B22F17FC1358002B786C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0048B22E17FC1358002B786C /* SystemConfiguration.framework */; };
-		0048B23117FC135E002B786C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0048B23017FC135E002B786C /* Security.framework */; };
 		0048B23317FC7521002B786C /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0048B23217FC7521002B786C /* logo.png */; };
 /* End PBXBuildFile section */
 
@@ -70,18 +64,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0048B23117FC135E002B786C /* Security.framework in Frameworks */,
 				0048B22F17FC1358002B786C /* SystemConfiguration.framework in Frameworks */,
-				0048B22D17FC1350002B786C /* CoreMedia.framework in Frameworks */,
-				0048B22B17FC133B002B786C /* OpenGLES.framework in Frameworks */,
-				0048B22917FC1335002B786C /* QuartzCore.framework in Frameworks */,
 				0048B22717FC1324002B786C /* AVFoundation.framework in Frameworks */,
 				0048B22517FC131E002B786C /* CFNetwork.framework in Frameworks */,
 				0048B22317FC1307002B786C /* AudioToolbox.framework in Frameworks */,
 				0048B21F17FC1281002B786C /* libPlivoEndpoint.a in Frameworks */,
 				0048B1F017FBFF3E002B786C /* UIKit.framework in Frameworks */,
-				0048B1F217FBFF3E002B786C /* Foundation.framework in Frameworks */,
-				0048B1F417FBFF3E002B786C /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +355,7 @@
 				0048B21417FBFF3E002B786C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

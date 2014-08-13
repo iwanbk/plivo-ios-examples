@@ -10,18 +10,11 @@
 		0003C71717FDB67000BA73BF /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0003C71617FDB67000BA73BF /* logo.png */; };
 		0003C71A17FDB93600BA73BF /* Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0003C71917FDB93600BA73BF /* Phone.m */; };
 		0003C71C17FDBA9B00BA73BF /* libPlivoEndpoint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0003C71B17FDBA9B00BA73BF /* libPlivoEndpoint.a */; };
-		0003C71E17FDBABB00BA73BF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0003C71D17FDBABB00BA73BF /* Security.framework */; };
 		0003C72017FDBAC200BA73BF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0003C71F17FDBAC200BA73BF /* SystemConfiguration.framework */; };
-		0003C72217FDBAC900BA73BF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0003C72117FDBAC800BA73BF /* CoreMedia.framework */; };
-		0003C72417FDBADB00BA73BF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0003C72317FDBADB00BA73BF /* OpenGLES.framework */; };
-		0003C72617FDBAE300BA73BF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0003C72517FDBAE300BA73BF /* QuartzCore.framework */; };
 		0003C72817FDBB0200BA73BF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0003C72717FDBB0200BA73BF /* AVFoundation.framework */; };
 		0003C72A17FDBB0800BA73BF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0003C72917FDBB0800BA73BF /* CFNetwork.framework */; };
 		0003C72C17FDBB0F00BA73BF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0003C72B17FDBB0F00BA73BF /* AudioToolbox.framework */; };
-		0003C72E17FDBB1400BA73BF /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0003C72D17FDBB1400BA73BF /* CoreAudio.framework */; };
 		004A2F1F17FDB2BC0020E467 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004A2F1E17FDB2BC0020E467 /* UIKit.framework */; };
-		004A2F2117FDB2BC0020E467 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004A2F2017FDB2BC0020E467 /* Foundation.framework */; };
-		004A2F2317FDB2BC0020E467 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004A2F2217FDB2BC0020E467 /* CoreGraphics.framework */; };
 		004A2F2917FDB2BD0020E467 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 004A2F2717FDB2BD0020E467 /* InfoPlist.strings */; };
 		004A2F2B17FDB2BD0020E467 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 004A2F2A17FDB2BD0020E467 /* main.m */; };
 		004A2F2F17FDB2BD0020E467 /* PlivoIncomingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 004A2F2E17FDB2BD0020E467 /* PlivoIncomingAppDelegate.m */; };
@@ -71,19 +64,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0003C72E17FDBB1400BA73BF /* CoreAudio.framework in Frameworks */,
 				0003C72C17FDBB0F00BA73BF /* AudioToolbox.framework in Frameworks */,
 				0003C72A17FDBB0800BA73BF /* CFNetwork.framework in Frameworks */,
 				0003C72817FDBB0200BA73BF /* AVFoundation.framework in Frameworks */,
-				0003C72617FDBAE300BA73BF /* QuartzCore.framework in Frameworks */,
-				0003C72417FDBADB00BA73BF /* OpenGLES.framework in Frameworks */,
-				0003C72217FDBAC900BA73BF /* CoreMedia.framework in Frameworks */,
 				0003C72017FDBAC200BA73BF /* SystemConfiguration.framework in Frameworks */,
-				0003C71E17FDBABB00BA73BF /* Security.framework in Frameworks */,
 				0003C71C17FDBA9B00BA73BF /* libPlivoEndpoint.a in Frameworks */,
 				004A2F1F17FDB2BC0020E467 /* UIKit.framework in Frameworks */,
-				004A2F2117FDB2BC0020E467 /* Foundation.framework in Frameworks */,
-				004A2F2317FDB2BC0020E467 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
